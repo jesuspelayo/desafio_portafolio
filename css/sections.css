@@ -1,0 +1,451 @@
+.profile{
+    display: flex;
+    width: 60%;
+    height: 350px;
+    justify-content: space-between; 
+}
+
+.contenedor-profile{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 79%;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.presentacion{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.contenedor-social{
+    display: flex;
+    align-items: center;
+}
+
+
+.imagen-profile{
+    margin-top: 20px;
+    display: flex;
+    height: 190px;
+    width: 150px;
+    
+}
+
+.profile-img{
+    border-radius: 50%;
+    border: 1px groove #ffffff;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.about {
+    display: flex;
+    background-color: #696565;
+    flex-direction: column; 
+    width: 100%;
+    height: auto; 
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.acerca-de-mi {
+    width: 79%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+}
+
+.sobre-de-mi {
+    width: 79%; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contenedor_skills {
+    width: 80%;
+}
+
+.titulo_skills {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contenedor_lista_programs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor_programs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono_programa_ {
+    width: 100px;
+    height: 100px; 
+    margin-bottom: 10px;
+    border: 2px solid orange; 
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.titulo_programa_pasatiempo {
+    font-size: 16px;
+    text-align: center;
+}
+
+.hobbies {
+    display: flex;
+    background-color: rgb(111, 111, 111);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor_hobbies {
+    width: 80%;
+}
+
+.titulo_hobbies {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 20px; 
+}
+
+.contenedor_lista_hobbies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono_hobbie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono_hobbie img {
+    width: 100px;
+    height: 100px; 
+    margin-bottom: 10px;
+    border: 2px solid orange; 
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.titulo_pasatiempo {
+    font-size: 16px;
+    text-align: center;
+}
+
+.formacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor_formacion {
+    width: 80%;
+}
+
+.titulo_formacion {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contenedor_academica {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor_formacion_academica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.contenedor_logo_formacion {
+    margin-bottom: 10px;
+}
+
+.logo_formacion_universidad,
+.logo_formacion_alura {
+    width: 100px;
+    height: auto; 
+}
+
+.titulo_formacion {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.parrafo_formacion {
+    font-size: 20px;
+}
+
+.experience {
+    display: flex;
+    background-color: #696565;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+}
+
+.titulo_experiencia {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contenedor_proyectos {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.contenedor_proyecto_repositorio1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.contenedor_repositorio1 {
+    margin-right: 20px; 
+}
+
+.contenedor_btn_repositorio {
+    display: flex;
+    gap: 10px;
+}
+
+.icono_codigo_secreto {
+    width: 250px;
+    height: 200px;
+}
+
+.titulo_barberia {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.btn_repositorio,
+.btn_ver_demo {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn_repositorio:hover,
+.btn_ver_demo:hover {
+    background-color: #0056b3;
+}
+
+.contenedor_contacto {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.imagen_telefono {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.contenedor_formulario_contacto {
+    width: 25%; 
+}
+
+.titulo_contacto {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contenedor_contactarme {
+    margin-bottom: 10px;
+}
+
+.input_nombre_email_asunto,
+.textarea_mensaje {
+    width: calc(100% - 20px); 
+    margin-bottom: 10px;
+}
+
+.enviar_mensaje {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 25%; 
+}
+
+.enviar_mensaje:hover {
+    background-color: #0056b3;
+}
+
+.contenedor_desarrollo {
+    display: flex;
+    background-color: #696565;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+}
+
+.desarrollador {
+    font-size: 16px;
+    margin-bottom: 5px; 
+}
+
+
+/* Media queries para tamaños de pantalla pequeños */
+@media only screen and (max-width: 768px) {
+    .contenedor_profile {
+        width: 100%; /* Ajusta el ancho del contenedor de perfil al 100% en pantallas pequeñas */
+    }
+
+    .social {
+        width: 60%; /* Ajusta el ancho del contenedor de redes sociales al 60% en pantallas pequeñas */
+    }
+
+    .imagen-profile {
+        width: 120px; /* Reducir el ancho de la imagen de perfil en pantallas pequeñas */
+    }
+
+    .contenedor_formulario_contacto {
+        width: 80%; /* Ajusta el ancho del contenedor del formulario al 80% en pantallas pequeñas */
+    }
+
+    .input_nombre_email_asunto,
+    .textarea_mensaje {
+        width: calc(100% - 20px); /* Ajusta el ancho de los inputs y textarea al 100% - 20px en pantallas pequeñas */
+    }
+
+    .enviar_mensaje {
+        width: 80%; /* Ajusta el ancho del botón "Enviar mensaje" al 80% en pantallas pequeñas */
+    }
+
+    .contenedor_skills {
+        width: 100%; /* Ajusta el ancho del contenedor de habilidades al 100% en pantallas pequeñas */
+    }
+
+    .contenedor_lista_programs {
+        flex-direction: column; /* Cambia la dirección de la lista de programas a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos en la lista de programas en pantallas pequeñas */
+    }
+
+    .contenedor_programs {
+        margin-bottom: 20px; /* Espacio entre los programas en pantallas pequeñas */
+    }
+
+    .icono_programa_pasatiempo {
+        width: 80px; /* Reducir el tamaño de los iconos de programa en pantallas pequeñas */
+        height: 80px;
+    }
+
+    .contenedor_hobbies {
+        width: 100%; /* Ajusta el ancho del contenedor de hobbies al 100% en pantallas pequeñas */
+    }
+
+    .contenedor_lista_hobbies {
+        flex-direction: column; /* Cambia la dirección de la lista de hobbies a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos en la lista de hobbies en pantallas pequeñas */
+    }
+
+    .icono_hobbie img {
+        width: 80px; /* Reducir el tamaño de los iconos de hobbies en pantallas pequeñas */
+        height: 80px;
+    }
+
+    .contenedor_formacion {
+        width: 100%; /* Ajusta el ancho del contenedor de formación al 100% en pantallas pequeñas */
+    }
+
+    .contenedor_academica {
+        flex-direction: column; /* Cambia la dirección de los elementos de formación a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos de formación en pantallas pequeñas */
+    }
+
+    .contenedor_formacion_academica {
+        margin: 20px 0; /* Espacio entre los elementos de formación en pantallas pequeñas */
+    }
+
+    .logo_formacion_universidad,
+    .logo_formacion_alura {
+        width: 80px; /* Reducir el tamaño de los logotipos de formación en pantallas pequeñas */
+        height: auto;
+    }
+
+    .contenedor_proyectos {
+        width: 100%; /* Ajusta el ancho del contenedor de proyectos al 100% en pantallas pequeñas */
+    }
+
+    .contenedor_proyecto_repositorio1 {
+        flex-direction: column; /* Cambia la dirección de los elementos de proyecto a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos de proyecto en pantallas pequeñas */
+    }
+
+    .contenedor_repositorio1 {
+        margin-right: 0; /* Elimina el margen derecho en pantallas pequeñas */
+        margin-bottom: 20px; /* Espacio entre los proyectos en pantallas pequeñas */
+    }
+
+    .icono_codigo_secreto {
+        width: 200px; /* Reducir el tamaño del icono de código secreto en pantallas pequeñas */
+        height: auto;
+    }
+
+    .btn_repositorio,
+    .btn_ver_demo {
+        width: 100%; /* Ajusta el ancho de los botones al 100% en pantallas pequeñas */
+    }
+}
+
+/* Media queries para tamaños de pantalla medianos */
+@media only screen and (max-width: 1024px) {
+    .contenedor_skills,
+    .contenedor_hobbies,
+    .contenedor_formacion,
+    .contenedor_proyectos,
+    .contenedor_contacto,
+    .contenedor_desarrollo {
+        width: 90%; /* Ajusta el ancho de los contenedores al 90% en pantallas medianas */
+    }
+}
+
+
